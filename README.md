@@ -6,6 +6,8 @@ Os elementos em HTML têm tags de abertura como `<h1>`, e tags de fechamento, co
 
 Os elementos de título, que vão de **h1** a **h6**, são usados para dar significado à importância do conteúdo abaixo deles. Quanto menor o número, maior a importância. 
 
+Quando adicionamos um elemento de título menor à página, é implícito que estamos iniciando uma nova **subseção**.
+
 >**Note**: Sempre usar apenas um elemento **h1** por página e colocar sempre os títulos de importância inferior abaixo dos mais importantes.
 
 ### Tag de Parágrafo
@@ -57,3 +59,43 @@ O elemento âncora **a**, também tem atributos, como o **href** que faz referê
 O texto de um link dever ser colocado entre as tags de abertura e fechamento de um elemento âncora (**a**).
 
 O elemento âncora **a** possui também um atributo chamado **target**, com ele é possível controlar se o link ao ser clicado pelo usuário irá ser aberto a uma nova gia ou não. Para que seja aberto em uma nova guia, é necessário usar o valor **_blank** no atributo **target**.
+
+### Listas não ordenadas
+
+A tag para a criação de uma lista não ordenada é a `<ul>` e para seus elementos da lista é a `<li>`:
+```HTML
+<ul>
+    <li>milk</li>
+    <li>cheese</li>
+</ul>
+```
+
+### Listas ordenadas
+
+Para uma lista ordenada a tag é `<ol>`.
+```HTML
+<ol>
+    <li>milk</li>
+    <li>cheese</li>
+</ol>
+```
+### Figure
+
+O elemento `<figure>` representa um conteúdo auto-contido e permite que se associe uma imagem com uma legenda.
+
+O elemento de legenda da figura é adicionado pelo `<figcaption>` usado para descrever a imagem contida dentro do elemento.
+
+### em
+
+Para enfatizar deixando-o em itálico um texto no html podemos fazer o uso da tag `em`:
+```HTML
+Eu <em>amo</em> pizza <!--Dessa forma a palvra amo fica enfatizada-->
+```
+
+### strong
+
+O elemento `<strong>` assim como o `em` enfatiza o texto, só que o strong deixa o texto em negrito.
+
+### Formulários
+
+Para criar um formulário em HTML devemos usar a tag `<form>`.
