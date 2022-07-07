@@ -149,6 +149,14 @@ O elemento `legend` atua como uma legenda para o conteúdo do `fieldset`. Ele d�
 
 Para perguntas que tenham mais de uma resposta usamos caixas de seleção, para ter uma entrada do tipo, basta que no atributo `type` do `input` seja inserido o valor **checkbox**.
 
+Para que uma caixa de seleção ou botão de opção esteja selecionado por padrão, você precisa adicionar o atributo `checked` ao elemento. **Não há a necessidade de definir um valor para o atributo checked**. Em vez disso, apenas adicione a palavra checked (selecionado) ao elemento `input`, certificando-se de que haja um espaço entre esse atributo e os outros.
+
+Existe outra maneira de associar o texto de um elemento `input` com o elemento em si. Você pode colocar o texto dentro de um elemento `label` e adicionar um atributo `for` com o mesmo valor que o atributo `id` do elemento `input`.
+
 ### ID
 
 O atributo `id` é usado para identificar elementos HTML específicos. O valor de cada atributo `id` deve ser **único** em comparação aos outros valores de `id` para a página inteira.
+
+### Footer
+
+`<footer>` é a tag que define a seção de rodapé da página.
